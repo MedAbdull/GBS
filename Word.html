@@ -52,6 +52,25 @@
 	
 
 
+		.frm
+		{
+
+		margin: 10px;
+		padding: 3px;
+		background-color: #fff;
+		border: 6px solid #ccc;
+		box-shadow: 10px 10px 10px blue;
+		transition: all .5s ease-in-out;
+
+		}
+		
+		.frm:hover
+		{
+			border-radius: 50%;
+		}
+
+
+
 
 </style>
 </head>
@@ -71,12 +90,13 @@
     </div>        
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">        
-        <li class="active"><a href="index.html"> الرئيسية</a></li>
-        <li><a href="HR.html">الموارد البشرية</a></li>
-        <li><a href="Marketing.html">إدارة التسويق</a></li>
-        <li><a href="strategy.html">إدارة الاستراتيجيات</a></li>		
+        <li class="active"><a href="index.html"> الرئيسية</a></li>     
+     
+       	
         <li><a href="Word.html">  إدارة اعمال دولية  </a></li> 
-		<li><a href="information.html">  نظم المعلومات الادارية  </a></li>			
+		<li><a href="information.html">  نظم المعلومات </a></li>	
+<!--		<li><a href="Form.html" >    Login  </a>	</li>	
+	-->	
       </ul>
     </div>
   </div>
@@ -84,42 +104,42 @@
 
   
 
- <!--######################################################-->
-
-    <br />
-
 
 
  <!--######################################################-->
 
 <div class="container">
-
+<div class="card"> 
 	<div class="row" >   
+	
+		  
+        	
+	<!--			<iframe class="frm" src="Form.html" width="450" height="330px" ></iframe>
+	-->			
+	
+	
+		
+			
 
-		<div class="col-md-12" style="background:#fff;border:5px solid #f3f16d; border-radius:20px; ">
 		
+	
+		<div class="col-md-4" > 
 		
-			<h3 class="text-latter" style="text-align:center;margin-bottom:10px;";> إدارة اعمال دولية </h3>		
-				
-				<div class="col-md-4">
-               
-            
-		
-			           	
-			   <div class="left child" style="margin-top:0px;">
-				<div class="gallery">
-					<div class="item" >
-						<img src="img/fadl.png" alt=""   >
+				   <div class="left child" style="margin-top:0px;padding-left:20px;">
+					<div class="gallery">
+						<div class="item" >
+							<img class="frm" src="img/fadl.png" 	alt=""   >
+						</div>
+					<!-- 4 more images here -->
 					</div>
-				<!-- 4 more images here -->
-				</div>
 		</div><!--/left-->
 
-            </div>
-
-			<div class="col-md-8">
+            </div>				
+			
+			
                
-            
+            	<div class="col-md-6" style="float:right;padding-right:40px; padding-top:10px;">
+				
                <h3 style="font-weight:bold ;" >  د. فضل محمد إبراهيم المحمودي </h3>
 			    <h4 class="text-latter">   تاريخ الميلاد : 1964م .  </h4>
 				 <h4 class="text-latter">  مكان الميلاد : تعز -  اليمن .  </h4>
@@ -131,12 +151,10 @@
 					 <h4 class="text-latter"> <a  href="" >    تحميل السيرة الذاتية  </a>  </h4> 
 					 <h3 class="text-latter">   </h3>
 					  <h3 class="text-latter">   </h3>
-					   <h3 class="text-latter">   </h3>
-				
+					   <h3 class="text-latter">   </h3>				
            
-            	</div>			
-			
-            										
+            	</div>		
+  										
 		
 		</div>
     </div>		
@@ -148,26 +166,28 @@
  
 	 <!--######################################################-->
 	 
-    <div class="container">
-
-	<div class="row" >   					
-		<div class="col-md-12" style="background:#fff;border:5px solid #f3f16d; border-radius:20px;">
-		
-			<h3 class="text-latter" style="text-align:center;margin-bottom:10px;";> </h3>				
-			
+   
 				
-			<div class="col-md-6">	
-				  <h3 class="text-latter1">   </h3>
-				 
-			</div>
+			
+		<script>
+		try
+		{
+		if ((txtName.Text == "adm") && (txtPassword.Text == "wat123"))
+		{
+		Session["edithtml"] = "OK";
+		//      pcMain.ShowOnPageLoad = false;
+		Response.Redirect("/default.aspx");
+		}
+		}
+		catch (Exception er)
+		{
+		Label1.Text = er.Message;
+		}
 		
+		
+		</script>
 				  
-			
-			
-	</div>
-</div>
-
-</div>
+	
 	
   <br/>
   <!--#########################  المقرر    #############################-->
@@ -194,12 +214,52 @@
        <td>إدارة اعمال دولية</td>
         <td>  المحاضرة 1 و 2 </td>
         <td>فضل المحمودي  </td>
-		<td style="text-align:center";><a  href="Study/ادارة الاعمال الدولية محاضرة 1و 2.pdf" >    تحميل  </a></td>		 
+		<td style="text-align:center";><a  href="Study/إدارة أعمال دولية المحاضرة 1& 2.pdf ">    تحميل DPF </a></td>		
       </tr>	
 	 
+	  <tr>
+       <td>إدارة اعمال دولية</td>
+        <td> المحاضرة 3 & 4 </td>
+        <td>فضل المحمودي  </td>
+		<td style="text-align:center";><a  href="Study/إدارة أعمال دولية المحاضرة 3 & 4.pdf ">    تحميل DPF </a></td>		
+      </tr>	
 	 
 	  
+	   <tr>
+       <td>إدارة اعمال دولية</td>
+        <td> المحاضرة 5  </td>
+        <td>فضل المحمودي  </td>
+		<td style="text-align:center";><a  href="Study/إدارة أعمال دولية المحاضرة 5.pdf ">    تحميل DPF </a></td>	
+      </tr>	
+	   	  
+	   <tr>
+       <td>إدارة اعمال دولية</td>
+        <td> المحاضرة 6 </td>
+        <td>فضل المحمودي  </td>
+		<td style="text-align:center";><a  href="Study/إدارة أعمال دولية المحاضرة 6.pdf ">    تحميل DPF </a></td>	
+      </tr>	
+	  	  	 	  
+	   <tr>
+       <td>إدارة اعمال دولية</td>
+        <td> المحاضرة 7 </td>
+        <td>فضل المحمودي  </td>
+		<td style="text-align:center";><a  href="Study/إدارة أعمال دولية المحاضرة 7.pdf ">    تحميل DPF </a></td>	
+      </tr>	   
+	 
+	   <tr>
+       <td>إدارة اعمال دولية</td>
+        <td> المحاضرة 8 </td>
+        <td>فضل المحمودي  </td>
+		<td style="text-align:center";><a  href="Study/إدارة أعمال دولية المحاضرة 8.pdf ">    تحميل DPF </a></td>	
+      </tr>	    
 	  
+	   <tr>
+       <td>إدارة اعمال دولية</td>
+        <td> المحاضرة 9 </td>
+        <td>فضل المحمودي  </td>
+		<td style="text-align:center";><a  href="Study/إدارة أعمال دولية المحاضرة 9.pdf ">    تحميل DPF </a></td>	
+      </tr>	    
+	    	  	
 	  
     </tbody>
   </table>
@@ -235,9 +295,9 @@
     <tbody>      
 	  <tr>
        <td>إدارة اعمال دولية</td>
+        <td>ملخص إدارة الاعمال الدولية كاملة </td>
         <td></td>
-        <td></td>
-		<td style="text-align:center";><a  href="" >     </a></td>		 
+		<td style="text-align:center";><a  href="File/ملخص إدارة الاعمال الدولية كاملة .pdf" >    تحميل DPF   </a></td>		 
       </tr>
 	 
 	  

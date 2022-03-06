@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Form</title>	
+<meta charset="UTF-8">
+  	 <link href="CSS/style.css" rel="stylesheet" />	
+<style>
+		td
+		{
+		padding:5px;
+		
+		}
+</style>
+	
+</head>
+
+<body>
+
+<div class="container">
+	<div class="row" >						
+				<div class="col-md-6">
+               
+
+<form action="D:\MA\Test.html" method="post">
+
+		<table   border="3px solid"  align="center">
+
+			<tr>
+			<td colspan=2><center><font size=3>
+				<h4>تسجيل الدخول للتكاليف </h4>						
+			</font></center></td>
+		
+			</tr>
+
+			<tr>
+			<td>اسم المستخدم:</td>
+			<td><input type="text"  name="userid" ></td>
+			</tr>
+
+			<tr>
+			<td>كلمة المرور:</td>
+			<td><input type="Password"  name="pwd" ></td>
+			</tr>
+
+			<tr>
+			<td ></td>
+			<td><input class="btn primary" type="submit" onclick="return check(form)" value="دخول"></td>
+			</tr>
+
+		</table>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+
+	
+
+<script language="javascript">
+function check(form)
+{
+
+if(form.userid.value == "adm" && form.pwd.value == "123")
+
+{ 
+	return true;
+}
+
+if(form.userid.value == "adm1" && form.pwd.value == "111")
+
+{ 
+	return true;
+}
+else
+{
+	alert("Error Password or Username")
+	return false;
+}
+}
+</script>
+
+
+
+
+</body>
+</html>
