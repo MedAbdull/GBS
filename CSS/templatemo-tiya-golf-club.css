@@ -140,6 +140,7 @@ strong {
 .section-padding {
   padding-top: 100px;
   padding-bottom: 100px;
+  
 }
 
 .section-overlay {
@@ -643,7 +644,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/anna-rosar-ZxFyVBHMK-c-unsplash.jpg');
+  background-image: url('../images/asd.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -717,6 +718,7 @@ strong {
   border: 1px solid rgba(209, 213, 219, 0.3);
   border-radius: var(--border-radius-medium);
   padding: 50px;
+  
 }
 
 .section-bg-image-block .input-group {
@@ -738,7 +740,7 @@ strong {
 }
 
 .section-bg-image-block button[type="submit"] {
-  background-color: var(--primary-color);
+ background-color: var(--primary-color);
   border: 0;
   border-radius: var(--border-radius-large) !important;
   color: var(--white-color);
@@ -751,6 +753,7 @@ strong {
 -----------------------------------------*/
 .about-section {
   padding-bottom: 70px;
+ 
 }
 
 .member-block-image-wrap {
@@ -891,6 +894,7 @@ strong {
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: all 0.5s;
+ 
 }
 
 .custom-block-icon:hover {
