@@ -1,0 +1,11 @@
+﻿body {
+        float:right;
+        direction:rtl;
+}
+
+
+.widget catagory mb-50 , .shop_grid_area section-padding-80 ,.shop_sidebar_area {
+        float:right;
+        text-align:right;
+        padding-right:30px;
+}
